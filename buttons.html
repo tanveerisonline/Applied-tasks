@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttons.css">
+    <title>Custom Made Buttons</title>
+</head>
+<body>
+    <div class="fading">
+        <h1>Fading Buttons</h1>
+        <button class="fade-in">Fade In Effect</button>
+        <button class="fade-bg">Background Change</button>
+        <button class="fade-out">Fade Out Effect</button>
+    </div>
+
+    <div class="hover">
+        <h1>From Outlined to Filled Buttons with Transition Effect</h1>
+        <button class="button button1">Green</button>
+        <button class="button button2">Blue</button>
+        <button class="button button3">Red</button>
+        <button class="button button4">Gray</button>
+        <button class="button button5">Black</button>
+    </div>
+
+    <div class="change-it"> 
+        <h1>From Filled to Outlined Buttons with Transition Effect</h1>
+        <button class="button-filled btn5">Black</button>
+        <button class="button-filled btn4">Gray</button>
+        <button class="button-filled btn3">Red</button>
+        <button class="button-filled btn2">Blue</button>
+        <button class="button-filled btn1">Green</button>
+    </div>
+
+    <div class="text-btn">
+       <h1>Simple Text Based Buttons</h1>
+        <button class="btn success">Green</button>
+        <button class="btn info">Blue</button>
+        <button class="btn warning">Orange</button>
+        <button class="btn danger">Red</button>
+        <button class="btn default">Black</button>
+    </div>
+
+
+    <div class="main" id="container">
+        <h1>On Click Change { DIV } Background Color</h1>
+        <button class="items btn-red" id="red" onclick="applyTheme(this.id)">Red</button>
+        <button class="items btn-blue" id="blue" onclick="applyTheme(this.id)">Blue</button>
+        <button class="items btn-green" id="green" onclick="applyTheme(this.id)">Green</button>
+        <button class="items btn-white" id="white" onclick="applyTheme(this.id)">White</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

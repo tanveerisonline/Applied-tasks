@@ -1,0 +1,319 @@
+.fading,
+.hover,
+.change-it,
+.text-btn,
+.main {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border: 2px solid #555555;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: white;
+}
+.fade-in {
+  background-color: #ff6666;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.fade-in:hover {
+  opacity: 1;
+}
+.fade-bg {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.fade-bg:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.fade-out {
+  background-color: #1e8df4;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.fade-out:hover {
+  opacity: 0.6;
+}
+
+/* Hoverable Buttons with Transition Effect CSS Starts Here */
+.button {
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.button1:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.button2:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {
+  background-color: #e7e7e7;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+/* On Hover change Button from Outline to Filled with CSS Starts Here */
+
+.button-filled {
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn1 {
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid #4caf50;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn2 {
+  background-color: #008cba;
+  color: white;
+  border: 2px solid #008cba;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: black;
+}
+.btn3 {
+  background-color: #f44336;
+  color: white;
+  border: 2px solid #f44336;
+}
+
+.btn3:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn4 {
+  background-color: #e7e7e7;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.btn4:hover {
+  background-color: white;
+  color: black;
+}
+.btn5 {
+  background-color: #555555;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.btn5:hover {
+  background-color: white;
+  color: black;
+}
+
+/* --------------Text Based Buttons------------------------- */
+
+.btn {
+  border: none;
+  background-color: inherit;
+  /* padding: 14px 28px; */
+  padding: 16px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.success {
+  color: green;
+}
+
+.success:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* Blue */
+.info {
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196f3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+/* ------------------Themeable Buttons Css-------------------- */
+
+.items {
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.green {
+  background-color: #3e8e41;
+  color: #fff;
+}
+.blue {
+  background-color: #008cba;
+  color: #fff;
+}
+.red {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.btn-red {
+  background-color: #f44336;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+}
+.btn-blue {
+  background-color: #008cba;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+}
+.btn-green {
+  background-color: #3e8e41;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.btn-white {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  background-color: white;
+  color: black;
+}
+.btn-blue:hover {
+  background-color: white;
+  color: black;
+}
+.btn-green:hover {
+  background-color: white;
+  color: black;
+}
+.btn-white:hover {
+  background-color: white;
+  color: black;
+}
